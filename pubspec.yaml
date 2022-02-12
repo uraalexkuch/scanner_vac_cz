@@ -1,0 +1,29 @@
+name: scanner_vac_cz
+description: help search vac.
+publish_to: none
+version: 1.0.0+1
+environment: {sdk: '>=2.16.0 <3.0.0'}
+dependencies:
+  flutter: {sdk: flutter}
+  qr_code_scanner: ^0.6.1
+  url_launcher: ^6.0.20
+  webview_flutter: ^3.0.0
+  get: ^4.2.3
+  responsive_sizer: ^3.0.5+1
+  cupertino_icons: ^1.0.2
+  hexcolor: ^2.0.5
+  marquee: ^2.2.0
+  lottie: ^1.2.1
+  spring: ^2.0.2
+dev_dependencies:
+  flutter_test: {sdk: flutter}
+  flutter_lints: ^1.0.0
+flutter:
+  uses-material-design: true
+
+  assets:
+  - image/
+  - image/qr_logo.jpg
+  - image/39701-robot-bot-3d.json
+  - image/volnovaha-rayon.png
+  - image/logo.png
